@@ -1,0 +1,15 @@
+mongod.exe --dbpath="C:\Program Files (86)\nodejs\Jasons\login\data\db"
+
+// the path has to exist first
+if you want to do stuff to the db here are some commands
+mongo      <-- loads a client to interface with the 				active db
+use <dbname>
+show collections  <-- shows the tables in the db
+db.<dbname>.find() <-- finds items in that database
+db.<dbname>.remove({}) <-- deletes that database
+
+
+nodemon app.js
+
+install all dependencies 
+npm install <mondule-name>
